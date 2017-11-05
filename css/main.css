@@ -1,0 +1,46 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#name, h1, h2, h3, h4 {
+	font-family: 'Permanent Marker', cursive;
+	color: #41365a;
+}
+
+#name {
+	font-size: 50px;
+  line-height: 1em;
+	margin-bottom: 5px;
+}
+
+#title {
+	font-size: 27px;
+}
+
+#logo {
+	width: 100px;
+}
+
+.jumbotron {
+	background-color: #211427;
+	background-image: url(../img/pexels-photo-113850.jpg);
+	background-size: cover;
+	color: white;
+}
+
+#welcome {
+	background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+	#name {
+		display: table-caption;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.btn {
+		margin-bottom: 50px;
+	}
+}

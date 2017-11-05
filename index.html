@@ -19,6 +19,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/jumbotron.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+
+		<!-- Custom fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,6 +36,7 @@
 
   <body cz-shortcut-listen="true">
 
+<!--
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -44,52 +49,61 @@
           <a class="navbar-brand" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/#">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+
+        </div>
       </div>
     </nav>
+-->
+		<header>
+			<div class="container">
+				<div class="pull-left">
+				<p id="name">Eduardo Mendivil</p>
+				<p id="title">Web Developer</p>
+				</div>
+				<div class="pull-right">
+					<img src="img/logo.png" id="logo" class="img-responsive pull-right">
+				</div>
+			</div>
+		</header>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <section class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/#" role="button">Learn more »</a></p>
+        <h1>I Love Web Development!</h1>
+        <p id="welcome">On this web page you will be able to see some of my projects and my development workflow. From creating mockups and implementing UX/UI principles to apps and websites to actual programming and server setup. Cool stuff!</p>
       </div>
-    </div>
+    </section>
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
+      <section class="row">
+				<div class="col-md-12">
+					<h1>Featured Work</h1>
+				</div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/#" role="button">View details »</a></p>
+					<img src="img/apps.jpg" class="img-responsive">
+          <h2>Apps</h2>
+          <p>Learn about the innovative apps that I have built for different kinds of purposes. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/#" role="button">View details »</a></p>
+					<img src="img/front-end.jpg" class="img-responsive">
+          <h2>Front End Development</h2>
+          <p>See how I employ principles of UI/UX to make successful websites. I have experience working for small and big clients. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/#" role="button">View details »</a></p>
+					<img src="img/back-end.jpg" class="img-responsive">
+          <h2>Back End Development</h2>
+          <p>Make your web application comunicate with your server flawlessly. I can suggest the best technology combinations to make your app work at its best.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
         </div>
-      </div>
+      </section>
 
       <hr>
 
       <footer>
-        <p>© 2016 Company, Inc.</p>
+        <p>© 2016 Eduardo Mendivil</p>
       </footer>
     </div> <!-- /container -->
 
